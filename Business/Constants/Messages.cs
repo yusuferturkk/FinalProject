@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -16,5 +17,12 @@ namespace Business.Constants
         public static string ProductCountOfCategoryError = "Kategoride ürün limit sayısını açtınız!";
         public static string ProductNameAlreadyExists = "Bu ürün adı zaten mevcut!";
         public static string CategoryLimitExceded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor!";
+        public static string AuthorizationDenied = "Yetkiniz yok!";
+        public static string AccessTokenCreated;
+        public static string UserNotFound;
+        public static string PasswordError;
+        public static string SuccessfulLogin;
+        public static string UserRegistered;
+        public static string UserAlreadyExists;
     }
 }

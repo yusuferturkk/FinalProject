@@ -35,7 +35,7 @@ namespace Business.BusinessAspects.Autofac
                     return;
                 }
             }
-            throw new Exception();
+            throw new Exception(Messages.AuthorizationDenied);
         }
     }
 }
