@@ -24,5 +24,6 @@ namespace Business.Constants
         public static string SuccessfulLogin;
         public static string UserRegistered;
         public static string UserAlreadyExists;
+        public static string ProductUpdated = "Ürün güncellendi";
     }
 }
